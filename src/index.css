@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4CAF50;
+  padding: 10px;
+  color: white;
+}
+
+header img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.home-page, .mammals-page, .birds-page, .reptiles-page {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+aside ul li.active {
+  background: #4CAF50;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 10px;
+}
+
+.animal-summary img {
+  max-width: 100px;
+}
+
+.animal-detail img {
+  max-width: 200px;
+}
