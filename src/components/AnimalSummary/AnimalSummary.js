@@ -12,7 +12,6 @@ const AnimalSummary = ({ animal }) => {
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
-
   return (
     <div className="animal-summary">
       <img src={animal.image} width={200} height={100} alt={animal.name} />
